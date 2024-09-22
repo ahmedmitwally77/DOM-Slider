@@ -1,0 +1,30 @@
+body {
+  background-color: #161a25;
+}
+
+.layer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.layer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 70%;
+  background-image: url(../images/Creamy-salad-10.jpg);
+  background-position: center center;
+  background-size: cover;
+}
